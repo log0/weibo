@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Scott Ballantyne"]
   s.date = %q{2011-01-11}
-  s.description = %q{this gem is an adaptation of John Nunemaker's Twitter gem.  I modified it to make api integration for 新浪微博 (t.sina.com.cn) easier.}
+  s.description = %q{this gem is an adaptation of John Nunemaker's Twitter gem.  I modified it to make api integration for Sina Weibo (t.sina.com.cn) easier.}
   s.email = %q{ussballantyne@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -36,7 +36,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/ballantyne/weibo}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{a gem to help api integration for 新浪微博 (t.sina.com.cn)}
+  s.summary = %q{a gem to help api integration for Sina Weibo (t.sina.com.cn)}
   s.test_files = [
     "test/helper.rb",
     "test/test_weibo.rb"
